@@ -72,7 +72,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.pdf;
+})();
 })();
 </script>
 ```
@@ -154,6 +156,7 @@ y = mypdf( 5.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-pdf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var lambda;
 var k;
@@ -169,6 +172,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 'x: %d, k: %d, λ: %d, f(x;k,λ): %d', x.toFixed( 4 ), k.toFixed( 4 ), lambda.toFixed( 4 ), y.toFixed( 4 ) );
 }
 
+})();
 })();
 </script>
 </body>
