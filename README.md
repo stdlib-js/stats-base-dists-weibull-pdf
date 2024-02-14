@@ -65,13 +65,13 @@ where `lambda > 0` and `k > 0` are the respective [scale][scale] and [shape][sha
 ## Usage
 
 ```javascript
-import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-pdf@deno/mod.js';
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-pdf@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-pdf@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-pdf@v0.2.0-deno/mod.js';
 ```
 
 #### pdf( x, k, lambda )
@@ -145,7 +145,7 @@ y = mypdf( 5.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-pdf@deno/mod.js';
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-pdf@v0.2.0-deno/mod.js';
 
 var lambda;
 var k;
