@@ -2,6 +2,51 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-12-29)
+
+<section class="features">
+
+### Features
+
+-   [`1a68a1f`](https://github.com/stdlib-js/stdlib/commit/1a68a1fde228b54088fa648aedb33f81d2e27c30) - add C implementation of `stats/base/dists/weibull/pdf`
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`1a68a1f`](https://github.com/stdlib-js/stdlib/commit/1a68a1fde228b54088fa648aedb33f81d2e27c30) - **feat:** add C implementation of `stats/base/dists/weibull/pdf` _(by Vinit Pandit, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Vinit Pandit
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
