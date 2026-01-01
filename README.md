@@ -156,22 +156,18 @@ y = mypdf( 5.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var randu = require( '@stdlib/random-base-randu' );
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
 var pdf = require( '@stdlib/stats-base-dists-weibull-pdf' );
 
-var lambda;
-var k;
-var x;
-var y;
-var i;
+var opts = {
+    'dtype': 'float64'
+};
+var lambda = uniform( 10, 0.0, 10.0, opts );
+var k = uniform( 10, 0.0, 10.0, opts );
+var x = uniform( 10, 0.0, 10.0, opts );
 
-for ( i = 0; i < 10; i++ ) {
-    x = randu() * 10.0;
-    lambda = randu() * 10.0;
-    k = randu() * 10.0;
-    y = pdf( x, lambda, k );
-    console.log( 'x: %d, k: %d, λ: %d, f(x;k,λ): %d', x.toFixed( 4 ), k.toFixed( 4 ), lambda.toFixed( 4 ), y.toFixed( 4 ) );
-}
+logEachMap( 'x: %0.4f, k: %0.4f, λ: %0.4f, f(x;k,λ): %0.4f', x, k, lambda, pdf );
 ```
 
 </section>
@@ -310,7 +306,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -336,8 +332,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
