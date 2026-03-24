@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-15)
+## Unreleased (2026-03-24)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`86e456b`](https://github.com/stdlib-js/stdlib/commit/86e456b4797c0520c1b019037bf18c6cca629a0c) - **docs:** fix incorrect return annotation in `stats/base/dists/weibull/pdf` [(#11119)](https://github.com/stdlib-js/stdlib/pull/11119) _(by Om-A-osc)_
 -   [`9604482`](https://github.com/stdlib-js/stdlib/commit/9604482fa07f495e6438b564910f6c3ba3185fb6) - **docs:** fix incorrect return value in C usage section `weibull/pdf` [(#10957)](https://github.com/stdlib-js/stdlib/pull/10957) _(by Om-A-osc)_
 
 </details>
